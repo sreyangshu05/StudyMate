@@ -52,8 +52,8 @@ A comprehensive AI-powered learning platform that transforms how students study 
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd Final StudyMate-AI
+git clone [<repository-url>](https://github.com/sreyangshu05/StudyMate)
+cd Final StudyMate
 ```
 
 2. **Install backend dependencies**
