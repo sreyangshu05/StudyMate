@@ -18,6 +18,9 @@ A comprehensive AI-powered learning platform that transforms how students study 
 - **🔍 Citation Highlighting**: Click-to-scroll PDF navigation
 - **📈 Performance Analytics**: Topic strengths/weaknesses analysis
 
+### Partially Working
+Quiz generation sometimes produces incomplete sets due to OpenAI model output variance (LLM generation randomness).
+
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -36,10 +39,12 @@ A comprehensive AI-powered learning platform that transforms how students study 
 - **FAISS** for vector similarity search
 
 ### AI & ML
-- **OpenAI GPT-3.5-turbo** for chat and Q&A
-- **OpenAI text-embedding-3-small** for document embeddings
-- **RAG (Retrieval-Augmented Generation)** for contextual answers
-- **Custom prompt engineering** for quiz generation
+- **Quiz Generation:** GPT-3.5-turbo dynamically generates MCQ/SAQ/LAQ questions from processed course text.
+- **Chat Assistant:** Context-aware responses using RAG pipeline.
+- **Explanation Generation:** Each quiz question includes AI-generated explanations for better conceptual clarity.
+- **Development Support:** ChatGPT was used for brainstorming architecture, optimizing prompt design, and writing boilerplate code.
+
+### 📊 Overall Completion: ~90%+ of total assignment scope successfully implemented.
 
 ## 🚀 Quick Start
 
@@ -215,6 +220,11 @@ npm run test:e2e
 - CORS protection
 - Input validation and sanitization
 - File upload restrictions
+
+## 🔬 What’s Missing / Known Issues
+- **Quiz Consistency-** Occasionally, AI-generated quizzes skip questions or produce partial answers due to token limits.
+- **File Storage-** Local upload system used; no cloud storage (e.g., AWS S3) yet integrated.
+- **Advanced Analytics-** Planned for deeper topic-based insights in the next iteration.
 
 ## 🚀 Deployment
 
