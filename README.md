@@ -282,14 +282,3 @@ For support and questions:
 
 ### E2E Test
 - Simulate user flow (Playwright): open reader, run quiz, check dashboard
-
-## Evaluation Mapping (Assignment Rubric)
-- **Scope coverage (50%)**: All must-have features implemented (PDF viewer, quiz generation, storage, progress)
-- **UI/UX (20%)**: Clean, responsive, accessible UI (mobile + desktop)
-- **Responsiveness (10%)**: Fast load, performant demo
-- **Code quality (10%)**: Modular, linted, documented, clear README
-- **README (10%)**: Architecture diagram, run instructions, screenshots, seeded data, feature mapping
-
----
-
-For demo: see screenshots, architecture, and run instructions above. Seeded with NCERT Class XI Physics PDFs for quick grading.
